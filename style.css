@@ -1,0 +1,107 @@
+*{
+  border:0px;
+  margin:0px;
+  font-family:roboto;
+}
+#background{
+  background-color:black;
+  height:100vh;
+  width:100vw;
+}
+#textWrapper{
+  text-align:right;
+  width:90vw;
+  margin:auto;
+  padding-top:6vh;
+  height:85vh;
+}
+H1{
+  color:white;
+  font-size:50vh;
+  font-weight:lighter;
+}
+H2{
+  color:white;
+  font-size:10vh;
+  margin-top:-8vh;
+}
+#clock{
+  background-color:black;
+  transition:color .5s linear;
+}
+#date{
+  background-color:black;
+  transition:color .5s linear;
+}
+.circle{
+  border-radius:50%;
+  text-align:center;
+  width:3vw;
+  height:3vw;
+  transition:filter .5s linear;
+}
+.circleBorder{
+  border:3px white solid;
+}
+#colorPickerWrapper{
+
+  margin:auto;
+}
+#colorPicker{
+  position:relative;
+  width:70vw;
+  height:4vw;
+  margin:auto;
+}
+#color1{
+  position:absolute;
+  right:7%;
+  background-color:rgb(255,60,0);
+}
+#color2{
+  position:absolute;
+  right:27%;
+  background-color:rgb(0,150,255);
+}
+#color3{
+  position:absolute;
+  right:47%;
+  background-color:rgb(155,0,200);
+}
+#color4{
+  position:absolute;
+  right:67%;
+  background-color:rgb(0,150,80);
+}
+#color5{
+  position:absolute;
+  right:87%;
+  background-color:rgb(255,255,255);
+}
+.startFade{
+  opacity:0;
+  transition: opacity 1s linear;
+}
+.fadeIn{
+  opacity:1;
+  transition: opacity 1s linear;
+}
+.color1Text{
+  color:rgb(255,60,0);
+}
+.color2Text{
+  color:rgb(0,150,255);
+}
+.color3Text{
+  color:rgb(155,0,200);
+}
+.color4Text{
+  color:rgb(0,150,80);
+}
+.color5Text{
+  color:rgb(255,255,255);
+}
+.circle:hover{
+  filter:brightness(1.5);
+  transition:filter .5s linear;
+}
